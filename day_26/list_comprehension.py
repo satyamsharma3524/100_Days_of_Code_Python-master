@@ -14,3 +14,8 @@ print(changed_name)
 ranges = range(1, 5)
 doubled_range = [n*2 for n in ranges]
 print(doubled_range)
+
+# using range to loop
+ranging = range(1, 5)
+double_range = [n*5 for n in ranging]
+print(double_range)
