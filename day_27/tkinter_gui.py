@@ -8,6 +8,7 @@ window.minsize(width=500, height=500)
 # label
 my_label = tkinter.Label(text="This is my label", font=("arial", 24, "bold"))
 my_label.pack()
+my_label.config(padx=10, pady=10)
 
 # entry
 user_input = tkinter.Entry(width=50)
@@ -21,5 +22,6 @@ def button_click():
 
 button = tkinter.Button(text="Click Me", command=button_click)
 button.pack()
+button.config(padx=10, pady=10)
 
 window.mainloop()
