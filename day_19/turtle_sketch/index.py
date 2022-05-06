@@ -3,14 +3,18 @@ import turtle
 timmy = turtle.Turtle()
 screen = turtle.Screen()
 
+
 def move_forward():
     timmy.forward(10)
+
 
 def move_left():
     timmy.left(10)
 
+
 def move_right():
     timmy.right(10)
+
 
 def move_back():
     timmy.back(10)
