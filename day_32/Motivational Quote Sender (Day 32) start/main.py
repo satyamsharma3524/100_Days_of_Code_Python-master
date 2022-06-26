@@ -15,10 +15,10 @@ if todays_day == 0:
         connection.starttls()
         connection.login(user=my_email, password=password)
         connection.sendmail(from_addr=my_email,
-                            to_addrs="gauravsatyam3524@gmail.com",
+                            to_addrs="nawalkumarsharma2@gmail.com",
                             msg=f"subject:Monday Motivation Quotes : Python System\n\n {quotes_list[random.randint(0, len(quotes_list)-1)]}"
                             )
-
+        print("Email sent successfully")  # print statement for debugging
 else:
     print("It's not Monday. No mail to send")
 
