@@ -17,6 +17,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\day_25\squirell_data_pandas\2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\day_25\states_of_america\50_states.csv">
           <value>
             <Attribute>
@@ -32,6 +39,13 @@
           </value>
         </entry>
         <entry key="\day_26\Nato_alphabet_project\nato_phonetic_alphabet.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\day_31\Teacher_solution\data\french_words.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
